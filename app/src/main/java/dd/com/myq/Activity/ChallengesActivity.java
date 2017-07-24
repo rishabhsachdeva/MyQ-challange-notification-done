@@ -149,7 +149,7 @@ public class ChallengesActivity extends AppCompatActivity implements ViewSwitche
         UpdateChallengePoints();
 
         progress = new ProgressDialog(this,  ProgressDialog.THEME_DEVICE_DEFAULT_LIGHT);
-        progress.setMessage("Loading Challenge's Questions...");
+        progress.setMessage("Loading Questions...");
         progress.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         progress.setIndeterminate(true);
         progress.setCancelable(false);

@@ -87,7 +87,7 @@ public class GroupActivity extends AppCompatActivity {
         groupmembers= new ArrayList<>();
 
         progress = new ProgressDialog(this,  ProgressDialog.THEME_DEVICE_DEFAULT_LIGHT);
-        progress.setMessage("Loading Members :) ");
+        progress.setMessage("Loading Members..");
         progress.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         progress.setIndeterminate(true);
 

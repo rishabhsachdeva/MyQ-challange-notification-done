@@ -7,6 +7,7 @@ public class
 Config {
 
     private static final String host="http://myish.com:10011/";
+    public static final String IMAGE_DIRECTORY_NAME = "Android File Upload";
 
     public static String LoginAPIUrl = host+"api/validate";
     public static String SignUpAPIUrl = host+"api/users";
